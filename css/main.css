@@ -88,7 +88,7 @@ main p {
 }
 
 .menu a {
-  color: #fff;
+  color: #a8a8b3;
   text-decoration: none;
 }
 
@@ -105,10 +105,22 @@ main p {
   padding: 10px;
 }
 
+.menu nav ul a:hover {
+  padding: 36px 0px;
+  border-bottom: 2px solid #9370DB;
+  color: #fff;
+}
+
 .botao-criar {
   border: 1px solid #9370DB;
   padding: 10px 17px;
   border-radius: 5px;
+  color: #fff;
+}
+
+.botao-criar:hover {
+  background-color: #9370DB;
+  color: #fff;
 }
 
 .button {
@@ -144,6 +156,10 @@ main p {
 
 .button a {
   text-decoration: none;
+}
+
+.button:hover {
+  background-color: #734bd1;
 }
 
 .botao-entrar {
@@ -187,15 +203,24 @@ main p {
 .informacoes ul {
   width: 100%;
   list-style: none;
+  border-bottom: 1px solid #a8a8b3;
+  padding: 0px;
+}
+
+.informacoes ul a:hover {
+  padding: 18px 0px;
+  border-bottom: 2px solid #04d361;
+  color: #fff;
 }
 
 .informacoes img {
   width: 160px;
+  height: 100px;
 }
 
 .conteudo-texto h2 {
   max-width: 45%;
-  padding-bottom: 25px;
+  padding: 30px 0px;
 }
 
 .conteudo-texto p {
