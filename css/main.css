@@ -162,4 +162,80 @@ main p {
   margin: 0px;
   padding: 0px;
 }
+
+.quem-somos {
+  background-color: #121214;
+}
+
+.quem-somos a {
+  color: #000;
+  font-weight: 1000;
+}
+
+.titulo h1 {
+  padding-top: 20px;
+  font-weight: 900;
+  font-size: 2.5em;
+  max-width: 60%;
+  text-align: center;
+}
+
+.informacoes {
+  width: 50%;
+}
+
+.informacoes ul {
+  width: 100%;
+  list-style: none;
+}
+
+.informacoes img {
+  width: 160px;
+}
+
+.conteudo-texto h2 {
+  max-width: 45%;
+  padding-bottom: 25px;
+}
+
+.conteudo-texto p {
+  max-width: 70%;
+  padding-bottom: 25px;
+}
+
+.button2 {
+  margin-top: 2%;
+  height: 50px;
+  max-width: 230px;
+  border-radius: 5px;
+  font-weight: 500;
+  background: #42d3ff;
+  color: #fff;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  border: 0;
+  -webkit-transition: -webkit-filter 0.2s;
+  transition: -webkit-filter 0.2s;
+  transition: filter 0.2s;
+  transition: filter 0.2s, -webkit-filter 0.2s;
+}
+
+.button2 img {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+}
+
+.button2 a {
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */
